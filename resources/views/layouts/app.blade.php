@@ -22,7 +22,7 @@
     <script type="text/javascript" src="{{ URL::asset('lib/DD_belatedPNG_0.0.8a-min.js') }}" ></script>
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
-
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
     <title>兔小辉博客 - 后台登录</title>
     <meta name="keywords" content="兔小辉博客">
     <meta name="description" content="兔小辉博客">
