@@ -22,7 +22,7 @@
             <div class="clear"></div>
         </header>
         <div class="post-content post-desc" itemprop="articleBody">
-            <p>{{ get_description(strip_tags($article->body))}}</p>
+            <p>{{ get_description(strip_tags($article->body),200)}}</p>
             <p>[<a href="{{ url('article/'.$article->id) }}" rel="nofollow">阅读更多 →</a>]</p>
             <div class="clear"></div>
         </div>
